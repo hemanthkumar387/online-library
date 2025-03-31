@@ -1,0 +1,86 @@
+.add-book-container {
+    max-width: 450px;
+    margin: auto;
+    padding: 25px;
+    background: #ffffff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    margin-top: 80px;
+    text-align: center;
+    font-family: "Arial", sans-serif;
+  }
+  
+  .add-book-container h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .add-book-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  /* Input Fields */
+  .add-book-container input,
+  .add-book-container select,
+  .add-book-container textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .add-book-container input:focus,
+  .add-book-container select:focus,
+  .add-book-container textarea:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+  }
+  
+  /* Category Dropdown */
+  .add-book-container select {
+    cursor: pointer;
+  }
+  
+  /* Textarea */
+  .add-book-container textarea {
+    resize: none;
+    height: 100px;
+  }
+  
+  /* File Upload */
+  .add-book-container input[type="file"] {
+    border: none;
+    padding: 5px;
+  }
+  
+  /* Image Preview */
+  .preview-image {
+    width: 100px;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+  
+  /* Submit Button */
+  .add-book-container button {
+    background: #007bff;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .add-book-container button:hover {
+    background: #0056b3;
+  }
+  

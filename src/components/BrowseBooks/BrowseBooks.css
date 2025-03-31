@@ -1,0 +1,29 @@
+/* Browse Books Page Styles */
+.browse-container {
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.browse-container h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.search-bar {
+  width: 60%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  transition: border-color 0.3s ease;
+}
+
+.search-bar:focus {
+  border-color: #007bff;
+  outline: none;
+}

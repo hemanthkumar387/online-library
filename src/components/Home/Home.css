@@ -1,0 +1,41 @@
+.welcome-section {
+    margin-top: 60px;
+    text-align: center;
+    padding: 20px;
+    background-color: #123458;
+    color: white;
+}
+  
+.welcome-section h2{
+    font-size: xx-large;
+}
+
+.welcome-section p {
+    font-size: large;
+}
+.categories-section {
+    text-align: center;
+    padding: 20px;
+}
+  
+.categories {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+  
+.category-text {
+    background-color: #123458;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+  
+.popular-books{
+    text-align: center;
+    margin-top: 20px;
+}
